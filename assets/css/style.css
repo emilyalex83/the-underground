@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto";
+    text-align: center;
+}
+
+/* BOUTTONS */ 
+.btn {
+    
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    font-weight: 900;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+}
+
+/* STYLE POUR HEADER*/
+header {
+    background-image: url(../img/banner-1.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding: 15vh 20%;
+}
+
+h1 { 
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 25px;
+}
+
+#rencontrer {
+    padding: 2rem 10%;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#pre-footer {
+    background-image: url(../img/banner-2.jpg);
+    height: 50vh;
+}
+
+/* PARTIE FOOTER */
+footer {
+    background-color: dimgrey;
+    color: white;
+    padding: 1rem 0;
+}
+
